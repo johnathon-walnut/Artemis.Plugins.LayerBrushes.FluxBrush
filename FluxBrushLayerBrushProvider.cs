@@ -1,5 +1,4 @@
 using Artemis.Core.LayerBrushes;
-using Artemis.UI.Shared.Services.PropertyInput;
 using Artemis.Plugins.LayerBrushes.FluxBrush.LayerBrushes;
 
 namespace Artemis.Plugins.LayerBrushes.FluxBrush;

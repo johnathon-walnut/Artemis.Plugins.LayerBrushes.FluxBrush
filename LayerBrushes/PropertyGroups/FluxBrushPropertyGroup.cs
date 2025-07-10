@@ -1,7 +1,7 @@
 using Artemis.Core;
 using SkiaSharp;
 
-namespace Artemis.Plugins.LayerBrushes.FluxBrush.PropertyGroups;
+namespace Artemis.Plugins.LayerBrushes.FluxBrush.LayerBrushes.PropertyGroups;
 
 public class FluxBrushPropertyGroup : LayerPropertyGroup
 {
@@ -10,12 +10,12 @@ public class FluxBrushPropertyGroup : LayerPropertyGroup
 
     protected override void PopulateDefaults()
     {
-        KelvinGradient.DefaultValue = new ColorGradient
-        {
+        KelvinGradient.DefaultValue =
+        [
             new ColorGradientStop(SKColors.Red, 0.1f),
             new ColorGradientStop(SKColors.Orange, 0.4f),
             new ColorGradientStop(SKColors.White, 0.65f),
-        };
+        ];
     }
 
     protected override void EnableProperties()

@@ -1,9 +1,6 @@
 using Artemis.Core.LayerBrushes;
-using Artemis.Plugins.LayerBrushes.FluxBrush.PropertyGroups;
+using Artemis.Plugins.LayerBrushes.FluxBrush.LayerBrushes.PropertyGroups;
 using SkiaSharp;
-using System;
-using System.IO;
-using System.Net;
 
 namespace Artemis.Plugins.LayerBrushes.FluxBrush.LayerBrushes;
 
