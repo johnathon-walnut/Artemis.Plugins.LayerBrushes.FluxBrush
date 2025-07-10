@@ -1,0 +1,15 @@
+{
+  "Guid": "7A255F1C-CDA1-4A04-A3DC-F6726B4933DB",
+  "Name": "f.lux brush",
+  "Description": "Adds a brush that will turn the kelvin temperature of your f.lux filter into a solid color brush",
+  "Author": "mfed",
+  "Website": "",
+  "Repository": "",
+  "Icon": "Lightbulb",
+  "Version": "1.0.0.0",
+  "Main": "Artemis.Plugins.LayerBrushes.FluxBrush.dll",
+  "AutoEnableProperties": true,
+  "RequiresAdmin": false,
+  "Platforms": "Windows",
+  "Api": "1.0.0"
+}
